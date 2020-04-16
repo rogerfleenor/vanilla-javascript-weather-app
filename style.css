@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*sets font color and style for all elements*/
+
+body * {
+  font-family: Arial;
+  font-size: xx-large;
+  color: white;
+}
+
+/*flexbox styling convenient for quick organization of a box layout*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/*each div tag becomes it's own box and is vertically stacked and centered*/
+
+.flex-container > div {
+  width: 33.33%;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 30px;
+}
+
+/*filter converts our black cloud image into white*/
+.invert { 
+  filter: invert(100%); 
+}
+
+.searchbar,
+.button {
+	height: 45px;
+	margin: 1em 0 4em;
+	padding: 0;
+	font: 400 1rem 'Arial';
+	letter-spacing: 0.025em;
+	color: white;
+	border: none;
+}
+.searchbar {
+	float: left;
+	width: 380px;
+	border-bottom: solid thin white;
+	color: #E8E8E8;
+	color: rgba(255, 255, 255, 0.7);
+}
+.transparent {
+  background: transparent;
+}
+input::-webkit-input-placeholder {
+  color: white;
+  }
+input:focus {
+  outline:none;
+}
+
+/*Roger Fleenor*/
