@@ -12,4 +12,6 @@ libraries)
 Bonus: show the user an image that represents the weather (for example: a weather icon,
 a meme, or a gif)
 
+Roger Fleenor
+
 ![OpenWeatherApp](https://github.com/rogerfleenor/vanilla-javascript-weather-app/blob/master/open-weather-app.png?raw=true)
